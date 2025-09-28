@@ -1,0 +1,47 @@
+# CTF Writeup Repository .gitignore
+
+# Compiled binaries
+*.exe
+*.out
+*.app
+*.bin
+
+# Object files
+*.o
+*.obj
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# CTF specific
+*.flag
+passwords.txt
+secrets.txt
+
+# Archives that might contain solutions
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Log files
+*.log
+
+# Node modules (if any JS tools are used)
+node_modules/
